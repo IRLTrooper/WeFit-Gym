@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+﻿# WeFit-Treningsenter
 
-## Getting Started
+# WeFit Gym Booking System
 
-First, run the development server:
+Dette prosjektet er en nettside for **WeFit Gym** som lar brukere booke treningsøkter og personlig trening. Den inneholder funksjoner for å velge dato og tjenester, samt et skjema for kortinformasjon.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Innhold
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Velkommen**: Hovedsiden til nettsiden.
+- **Om Oss**: Informasjon om treningssenteret og tilgjengelige tjenester.
+- **Booking**: Brukere kan velge en dato og en tjeneste.
+- **Betaling**: Inngang av kortinformasjon etter booking.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Funksjoner
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Responsiv Design**: Laget med **TailwindCSS** for en optimal opplevelse på både mobil og desktop.
+- **Navbar**:
+  - Responsiv navbar med link til alle sidene.
+- **Booking Funksjonalitet**: 
+  - Velg dato og tjeneste fra en liste.
+- **Kortinformasjon Validering**: 
+  - Skriv inn kortnummer (16 sifre), velg utløpsdato, og angi CVC (3 sifre).
 
-## Learn More
+## Teknologier
 
-To learn more about Next.js, take a look at the following resources:
+- **HTML**: Strukturering av nettsiden.
+- **TailwindCSS**: For styling.
+- **JavaScript**: Dynamisk innhold og validering av skjema.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Endringer
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Har flyttet over hele prosjektet, og har derfor mye å fikse.
