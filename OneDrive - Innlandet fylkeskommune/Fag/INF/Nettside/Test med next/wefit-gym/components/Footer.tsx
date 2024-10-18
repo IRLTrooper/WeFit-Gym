@@ -8,8 +8,8 @@ const Footer = () => {
             </div>
             
             <div className="flex justify-center space-x-6 mb-4">
-            <a href="Om-oss.html" className="hover:text-pink-500">Om oss</a>
-            <a href="Medlemskap.html" className="hover:text-pink-500">Medlemskap</a>
+            <a href="/om-oss" className="hover:text-pink-500">Om oss</a>
+            <a href="/medlemskap" className="hover:text-pink-500">Medlemskap</a>
             <a href="#" className="hover:text-pink-500">Kontakt oss</a>
             <a href="#" className="hover:text-pink-500">Personvern</a>
             </div>
